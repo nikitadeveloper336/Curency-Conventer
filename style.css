@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #28946b;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_card, .output_card{
+    width: 300px;
+    height: 300px;
+    background-color:#fff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px;
+
+}
+
+.lb_input {
+    margin-bottom: 10px;
+}
+
+.amount_input {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #7a7a7a;
+    margin-bottom: 25px;
+}
+
+.convert {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color:white;
+    text-transform: uppercase;
+    background-color: red;
+    cursor: pointer;
+}
+
+.result {
+    text-transform: uppercase;
+    font-size: 20px;
+}
